@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'BebasNeueThin';
+    src: url('BebasNeue-webfont.eot');
+    src: url('BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BebasNeue-webfont.woff') format('woff'),
+         url('BebasNeue-webfont.ttf') format('truetype'),
+         url('BebasNeue-webfont.svg#BebasNeueThin') format('svg');
+}
+
+body {
+    background-color: #ffffff;
+}
+
+#clock {
+    height: 100px;
+    width: 800px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    padding-top: 70px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    color: #6e6d6d;
+    font-size: 100px;
+}
+
+.calendar li {
+	display: block;
+	list-style: none;
+	float: left;
+	padding-right: 10px;
+}
+
+.calendar {
+	height: 100px;
+    width: 800px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    padding-top: 30px;
+    padding-left: 230px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    color: #6e6d6d;
+    font-size: 20px;
+}
+
+#day {
+	font-size: 30px;
+	font-weight: 300;
+	margin-top: -20px;
+}
+
+#date {
+	margin-top: -12px;
+}
