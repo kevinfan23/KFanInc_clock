@@ -11,18 +11,26 @@ body {
     background-color: #ffffff;
 }
 
+.content {
+	position: absolute;
+    height: 300px;
+    width: 550px;
+	padding:0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
 #clock {
-    height: 100px;
-    width: 800px;
-    margin: auto;
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
-    padding-top: 70px;
     font-family: 'Helvetica Neue', sans-serif;
     font-weight: 200;
     text-align: center;
     color: #6e6d6d;
     font-size: 100px;
+    position: absolute;
+	left: 0;
+    top: 20%;
 }
 
 .calendar li {
@@ -33,26 +41,25 @@ body {
 }
 
 .calendar {
-	height: 100px;
-    width: 800px;
-    margin: auto;
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
-    padding-top: 30px;
-    padding-left: 230px;
+    position: relative;
     font-family: 'Helvetica Neue', sans-serif;
     font-weight: 200;
     text-align: center;
     color: #6e6d6d;
     font-size: 20px;
+    padding: 0;
+    top: 0; 
 }
 
 #day {
 	font-size: 30px;
 	font-weight: 300;
-	margin-top: -20px;
+	left: 5%;
+	margin-top: 15px;
+	margin-left: -30px;
 }
 
 #date {
-	margin-top: -12px;
+	margin-top: 25px;
 }
+
